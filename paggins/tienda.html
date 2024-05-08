@@ -1,0 +1,330 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Tienda-Shopping Strom</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Encode+Sans&famiy=Inter&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="https://kit.fontawesome.com/94f47f52fa.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-light" style="font-family: Open Sans;">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="../paggins/index.php">Shopping Strom &nbsp;</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../paggins/productos.php"><i class="fas fa-store"></i>&nbsp;Productos</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="../paggins/tienda.php"><i class="fas fa-store-alt"></i>&nbsp;Tienda</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="../paggins/servicios.php"><i class="fas fa-cog"></i>&nbsp;Servicios</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="../paggins/contactanos.php"><i class="fas fa-phone-alt"></i>&nbsp;Contacto</a>
+          </li>
+        </ul>
+        <div class="d-none d-sm-block">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../paggins/login.php" style="font-size: 20px;"><i class="far fa-user-circle"></i>&nbsp;</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="../paggins/cart.php" style="font-size: 20px;"><i class="fas fa-shopping-cart"></i>&nbsp;</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="navbarx d-block d-sm-none" id="myNavbar">
+  <a class="nav-link" href="login.php" style="color: #212529; float: left; font-size: 24px;"><i class="far fa-user-circle"></i>&nbsp;</a>
+  <a class="nav-link" href="cart.php" style="color: #212529; float: right; font-size: 24px;"><i class="fas fa-shopping-cart"></i>&nbsp;</a>
+  </div> 
+
+  <!-- Page Content -->
+  <div class="container" style="padding-top: 100px;">
+    <center><h3>Productos en tienda</h3></center>
+    <div class="row bg-light text-dark pt-3">
+    	<div class="col-12 col-md-6"> 
+    		<select class="form-control" style="width: 100%;">
+    			<option>Ver todos los productos</option>
+    			<option>Ver kits</option>
+    			<option>Ver sistemas de seguridad</option>
+    			<option>Ver sistemas inteligentes </option>
+    		</select>
+    	</div>
+    	<div class="col-12 col-md-6">
+    		<div class="d-block d-sm-none"><br></div>
+    		<a class="btn btn-outline-success my-auto" href="" style="float: right;">Actualizar</a>
+    	</div>
+    </div>
+  	
+  	<br>
+    <div class="row bg-white p-3">
+  		<div class="col-12 col-md-3 my-auto rounded-lg p-3 card_shop" style="border: solid 0.5px; border-color: #d2d2d2;">
+  			<center>
+  				<img src="https://i.imgur.com/4EjuDZS.png" class="" width="75%;">
+	  			<label>Cámara de Seguridad Epcom</label><br>
+	  			<label class="text-muted">B8TURBOG2</label><br>
+	  			<label class="text-dark">$399.90</label><br><br>
+	  			<button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-outline-success rounded-lg bn-sm p-2"><i class="fas fa-plus"></i>&nbsp;Ver detalles</a>
+  			</center>
+  		</div>
+  		<div class="col-12 col-md-3 my-auto rounded-lg p-3 card_shop" style="border: solid 0.5px; border-color: #d2d2d2;">
+  			<center>
+  				<img src="https://i.imgur.com/4EjuDZS.png" class="" width="75%;">
+	  			<label>Cámara de Seguridad Epcom</label><br>
+	  			<label class="text-muted">B8TURBOG2</label><br>
+	  			<label class="text-dark">$399.90</label><br><br>
+	  			<button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-outline-success rounded-lg bn-sm p-2"><i class="fas fa-plus"></i>&nbsp;Ver detalles</a>
+  			</center>
+  		</div>
+  		<div class="col-12 col-md-3 my-auto rounded-lg p-3 card_shop" style="border: solid 0.5px; border-color: #d2d2d2;">
+  			<center>
+  				<img src="https://i.imgur.com/4EjuDZS.png" class="" width="75%;">
+	  			<label>Cámara de Seguridad Epcom</label><br>
+	  			<label class="text-muted">B8TURBOG2</label><br>
+	  			<label class="text-dark">$399.90</label><br><br>
+	  			<button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-outline-success rounded-lg bn-sm p-2"><i class="fas fa-plus"></i>&nbsp;Ver detalles</a>
+  			</center>
+  		</div>
+  		<div class="col-12 col-md-3 my-auto rounded-lg p-3 card_shop" style="border: solid 0.5px; border-color: #d2d2d2;">
+  			<center>
+  				<img src="https://i.imgur.com/4EjuDZS.png" class="" width="75%;">
+	  			<label>Cámara de Seguridad Epcom</label><br>
+	  			<label class="text-muted">B8TURBOG2</label><br>
+	  			<label class="text-dark">$399.90</label><br><br>
+	  			<button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-outline-success rounded-lg bn-sm p-2"><i class="fas fa-plus"></i>&nbsp;Ver detalles</a>
+  			</center>
+  		</div>
+  	</div>
+
+    <br><br>
+  </div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cámara de Seguridad Epcom</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <label class="text-muted"><p>B8TURBOG2</p></label>
+        <p class="text-dark" style="text-align: justify;">Descripción del producto con los detalles del mismo para que el cliente pueda comprender su funcionamiento y verificar si es de utilidad para su necesidad.</p>
+        <p class="text-dark" style="text-align: justify;">
+        	<b>Características:</b>
+        	<ul>
+        		<li>Elemento característico</li>
+        		<li>Otro elemento característico</li>
+        		<li>Elemento característico final</li>
+        	</ul>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <a href="" class="btn btn-success"><i class="fas fa-plus"></i>&nbsp;Agregar al carrito</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Pie de página-->
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>EMPRESA/COLEGIO</h4>
+          <ul>
+            <li><a href="#">CECYTE</a></li>
+            <li><a href="#">EVIL CORP</a></li>
+            <li><a href="#">POLITICAS DE PRIVACIDAD</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>AYUDA</h4>
+          <ul>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Compras</a></li>
+            <li><a href="#">¿Tienes dudas?</a></li>
+            <li><a href="#">Mas Opciones</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>CONTACTO CON EL DISEÑADOR WEB</h4>
+          <ul>
+            <li><a href="mailto:ivangaliciagarces@gmail.com">Correo: ivangaliciagarces@gmail.com</a></li>
+            <li><a href="#">Telefono: 735298046</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>REDES SOCIALES DEL DISEÑADOR</h4>
+          <div class="social-links">
+            <a href="https://www.facebook.com/Ivangaliciagarces" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+
+            <div id="clockdate">
+  <div class="clockdate-wrapper">
+    <div id="clock"></div>
+    <div id="date"></div>
+  </div>
+</div>
+
+          </div>
+        </div>
+      </div>
+     </div>
+  </footer>
+
+
+  <!--Fin del pie de página-->
+
+  <div class="container" style="padding-bottom: 50px;">
+    <div class="row">
+      <div class="col-12">
+        <center><p style="font-family: Inter; font-weight: lighter;" class="text-muted"><br><small style="font-size: 16px;">Copyright © 2022 <b>EVIL CORP</b>. Proudly made by <b>Iván Galicia Garcés</b>.</small></p></center>
+      </div>
+    </div>
+  </div>
+  <br>
+
+
+
+
+
+
+  <!-- Bootstrap core JavaScript -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+<style type="text/css">
+
+.carousel-item {
+  height: 100%;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbarx {
+  background-color: #f2f2f2;
+  z-index: 99;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.navbarx a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 3% 5%;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.card_shop:hover
+{
+  background: #f2f2f2;
+}
+
+
+/* decoracion de pie de la página */
+
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+    margin-top: 1%;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+
+</style>
+</html>
